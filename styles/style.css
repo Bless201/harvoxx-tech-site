@@ -123,7 +123,7 @@ body{
     padding: 172.672px 0px 171.556px 0px;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(270deg, rgba(33, 61, 86, 0.77) 0%, rgba(2, 25, 46, 0.77) 73.06%), url(/images/harvoxx6.jpg ) lightgray 0px -502.899px / 100% 299.228% no-repeat;
+    background: linear-gradient(270deg, rgba(33, 61, 86, 0.77) 0%, rgba(2, 25, 46, 0.77) 73.06%), url(../images/harvoxx6.jpg ) lightgray 0px -502.899px / 100% 299.228% no-repeat;
 }
 
 .hero .container{
@@ -441,7 +441,7 @@ line-height: normal;
     margin-left: 20px;
     position: absolute;
     bottom: 15px;
-    background: url(/images/harvoxx8.jpg) lightgray 50% / cover no-repeat;
+    background: url(../images/harvoxx8.jpg) lightgray 50% / cover no-repeat;
 }
 
 .project{
@@ -1038,7 +1038,7 @@ line-height: normal;
     position: absolute;
     bottom: 20px;
     right: 20px;
-    background: url(/images/harvoxx7.JPG) lightgray 50% / cover no-repeat;
+    background: url(../images/harvoxx7.JPG) lightgray 50% / cover no-repeat;
 }
 
 .services .service-container .brand-contain{
@@ -1074,7 +1074,7 @@ line-height: normal;
     position: absolute;
     bottom: 20px;
     left: 20px;
-    background: url(/images/harvoxx8.jpg) lightgray 50% / cover no-repeat;
+    background: url(../images/harvoxx8.jpg) lightgray 50% / cover no-repeat;
 }
 
 .services .service-container .brand-contain .contain-right{
