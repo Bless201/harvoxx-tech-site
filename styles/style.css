@@ -1086,6 +1086,7 @@ line-height: normal;
     align-items: flex-start;
     gap: 44px;
     margin-right: 20px;
+    margin-bottom: 70px;
     background: #FFF;
 }
 
@@ -1139,6 +1140,453 @@ line-height: normal;
     line-height: normal;
 }
 
+.services .service-container .service-contain .contain-left .left-div .left-dept p{
+    color: var(--Grey-text, #5E5E5E);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    align-self: stretch;
+}
 
+.services .service-container .service-contain .contain-right .div-images{
+    /* width: 538.836px; */
+    width: 510px;
+    height: 401.529px;
+    flex-shrink: 0;
+    border-radius: 13.579px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: url(../images/service3.jpg) lightgray 50% / cover no-repeat;
+}
 
+.services .service-container .service-contain #margin{
+    margin-bottom: 70px;
+}
 
+.services .service-container .brand-contain .contain-left .div-frame .div-image{
+    /* width: 537.854px; */
+    width: 510px;
+    height: 401.529px;
+    flex-shrink: 0;
+    border-radius: 13.579px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: url(../images/harvoxx4.jpg) lightgray 50% / cover no-repeat;
+}
+
+.services .service-container .brand-contain .contain-right .right-div{
+    display: flex;
+    height: 266px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-shrink: 0;
+    align-self: stretch;
+}
+
+.services .service-container .brand-contain .contain-right .right-div p{
+    align-self: stretch;
+    color: var(--Blue-Main-blue, #213D56);
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 33.8px */
+}
+
+.services .service-container .brand-contain .contain-right .right-div span{
+    color: var(--Blue-Main-blue, #213D56);
+    font-family: Montserrat;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+}
+
+.services .service-container .brand-contain .contain-right .right-div .right-docum p{
+    height: 180px;
+    flex-shrink: 0;
+    align-self: stretch;
+    color: var(--Yellow-Main-Yellow, #FC0);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    /* text-decoration-line: underline; */
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.services .service-container .brand-contain .contain-right .right-div .right-docum span{
+    color: var(--Grey-text, #5E5E5E);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.services .service-container .service-contain .contain-right .div-image{
+    /* width: 538.836px; */
+    width: 510px;
+    height: 401.529px;
+    flex-shrink: 0;
+    border-radius: 13.579px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: url(../images/harvoxx5.jpg) lightgray 50% / cover no-repeat;
+}
+
+.services .service-container .service-contain .contain-left .left-cons p{
+    align-self: stretch;
+    color: var(--Blue-Main-blue, #213D56);
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 135%; /* 35.1px */    
+}
+
+.services .service-container .service-contain .contain-left .left-cons span{
+    width: 433px;
+    color: var(--Blue-Main-blue, #213D56);
+    font-family: Montserrat;
+    font-size: 21px;
+    font-style: normal;
+    /* line-height: normal; */
+    font-weight: 500;
+    line-height: 135%;
+    text-transform: uppercase;
+}
+
+.services .service-container .service-contain .contain-left .left-cons .left-docum p{
+    height: 222px;
+    flex-shrink: 0;
+    align-self: stretch;
+    color: var(--Grey-text, #5E5E5E);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.services .service-container .service-contain .contain-left .left-cons .left-docum span{
+    color: var(--Yellow-Main-Yellow, #FC0);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.services .service-container #line{
+    margin-bottom: 70px;    
+}
+
+.pricing{
+    display: flex;
+    width: 1440px;
+    padding: 69px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    background: #F9F9F9;
+}
+
+.pricing .price-contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.pricing .price-contain .price{
+    width: 174.095px;
+    height: 42.616px;
+}
+
+.pricing .price-contain .price p{
+    color: var(--Blue-Main-blue, #213D56);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.pricing .price-contain .price span{
+    color: var(--Yellow-Main-Yellow, #FC0);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.pricing .price-contain .price svg{
+    width: 105.529px;
+    height: 3px;
+    transform: rotate(-1.355deg);
+    flex-shrink: 0;
+    fill: var(--Blue-Main-blue, #213D56);
+    stroke-width: 3px;
+    stroke: var(--Yellow-Main-Yellow, #FC0);
+}
+
+.pricing .price-contain .price-p p{
+    width: 732px;
+    color: var(--Dark-Grey-Subheadings, #555);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 122.022%; /* 21.964px */
+}
+
+.pricing .price-contain .price-p span{
+    color: var(--Yellow-Main-Yellow, #FC0);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 122.022%;
+}
+
+.pricing .price-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.pricing .price-container .price-frame{
+    display: flex;
+    padding-bottom: 3.879px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.pricing .price-container .price-frame .frame-div{
+    display: flex;
+    height: 378.121px;
+    padding-left: 6.679px;
+    align-items: center;
+    gap: 17.879px;
+}
+
+.pricing .price-container .price-frame .frame-div .frame{
+    display: flex;
+    width: 266.945px;
+    height: 341.437px;
+    padding: 15.872px 14.91px;
+    flex-direction: column;
+    align-items: center;
+    gap: 12.987px;
+    border-radius: 19.239px;
+    background: #FFF;
+    box-shadow: 0.962px 4.329px 11.255px 0px rgba(0, 0, 0, 0.06), -0.962px -0.962px 7.167px 0px rgba(0, 0, 0, 0.06);
+}
+
+.pricing .price-container .price-frame .frame-div .frame .frame-img1{
+    height: 144.393px;
+    flex-shrink: 0;
+    align-self: stretch;
+    border-radius: 9.62px;
+    background: url(../images/frame-img1.png) lightgray 50% / cover no-repeat;
+}
+
+.pricing .price-container .price-frame .frame-div .frame .frame-container{
+    display: flex;
+    height: 152.79px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+    align-self: stretch;
+}
+
+.pricing .price-container .price-frame .frame-div .frame .frame-container .frame-header p{
+    align-self: stretch;
+    color: var(--Blue-Main-blue, #213D56);
+    font-family: Montserrat;
+    font-size: 15.391px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.pricing .price-container .price-frame .frame-div .frame .frame-container .frame-contain{
+    display: flex;
+    height: 128.043px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+    align-self: stretch;
+}
+
+.pricing .price-container .price-frame .frame-div .frame .frame-container .frame-contain .contain1{
+    display: flex;
+    width: 196.901px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7.215px;
+}
+
+.pricing .price-container .price-frame .frame-div .frame .frame-container .frame-contain .contain1 .contain-p1{
+    align-self: stretch;
+    color: #6E6E6E;
+    font-family: Montserrat;
+    font-size: 11.544px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+}
+
+.pricing .price-container .price-frame .frame-div .frame .frame-container .frame-contain .contain1 .contain-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.886px;
+}
+
+.pricing .price-container .price-frame .frame-div .frame .frame-container .frame-contain .contain1 .contain-div .div-icon{
+    display: flex;
+    width: 14.429px;
+    height: 14.429px;
+    padding: 1.203px 1.202px 0.112px 1.203px;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 14.43/14.43;
+}
+
+.pricing .price-container .price-frame .frame-div .frame .frame-container .frame-contain .contain1 .contain-div .div-icon svg{
+    width: 12.025px;
+    height: 13.115px;
+    flex-shrink: 0;
+}
+
+.pricing .price-container .price-frame .frame-div .frame .frame-container .frame-contain .contain1 .contain-div .div-p{
+    color: #4D4D4D;
+    font-family: Montserrat;
+    font-size: 9.62px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.pricing .price-container .price-frame .frame-div .frame .frame-container .frame-contain .contain1 .contain-p2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3.367px;
+    align-self: stretch;
+}
+
+.pricing .price-container .price-frame .frame-div .frame .frame-container .frame-contain .contain1 .contain-p2 .p1{
+    align-self: stretch;
+    color: var(--Blue-Main-blue, #213D56);
+    font-family: Montserrat;
+    font-size: 9.62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.pricing .price-container .price-frame .frame-div .frame .frame-container .frame-contain .contain1 .contain-p2 .p2{
+    align-self: stretch;
+    color: #525252;
+    font-family: Montserrat;
+    font-size: 9.62px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.pricing .price-container .price-frame .frame-div .frame .frame-container .frame-contain .contain2{
+    display: flex;
+    width: 226.484px;
+    padding-bottom: 4.228px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing .price-container .price-frame .frame-div .frame .frame-container .frame-contain .contain2 .contain-div{
+    width: 226.873px;
+    height: 31.442px;
+    flex-shrink: 0;
+}
+
+.pricing .price-container .price-frame .frame-div .frame .frame-container .frame-contain .contain2 .contain-div .div-cont{
+    display: flex;
+    width: 226.873px;
+    height: 31.442px;
+    padding: 5.638px 21.611px;
+    justify-content: center;
+    align-items: center;
+    gap: 3.132px;
+    flex-shrink: 0;
+    border-radius: 9.248px;
+    background: var(--Yellow-Main-Yellow, #FC0);
+}
+
+.pricing .price-container .price-frame .frame-div .frame .frame-container .frame-contain .contain2 .contain-div .div-cont .div-p{
+    color: var(--Blue-Main-blue, #213D56);
+    font-family: Montserrat;
+    font-size: 10.023px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.pricing .price-container .price-frame .frame-div .frame .frame-img2{
+    height: 144.393px;
+    flex-shrink: 0;
+    align-self: stretch;
+    border-radius: 9.62px;
+    background: url(../images/frame-img2.png) lightgray 50% / cover no-repeat;
+}
+
+.pricing .price-container .price-frame .frame-div .frame .frame-container .frame-contain .contain1 .contain-p2 .p2 span{
+    color: var(--Blue-Main-blue, #213D56);
+    font-family: Montserrat;
+    font-size: 9.62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.pricing .price-container .price-frame .frame-div .frame .frame-img3{
+    height: 144.393px;
+    flex-shrink: 0;
+    align-self: stretch;
+    border-radius: 9.62px;
+    background: url(../images/frame-img3.png) lightgray 50% / cover no-repeat;
+}
+
+.pricing .price-container .price-frame .frame-div .frame .frame-img4{
+    height: 144.393px;
+    flex-shrink: 0;
+    align-self: stretch;
+    border-radius: 9.62px;
+    background: url(../images/frame-img4.png) lightgray 50% / cover no-repeat;
+}
